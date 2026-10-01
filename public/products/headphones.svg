@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Over-ear headphones">
+  <defs>
+    <linearGradient id="hpCup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4a4a" /><stop offset="1" stop-color="#232323" />
+    </linearGradient>
+  </defs>
+  <path d="M52 104V78a48 48 0 0 1 96 0v26" fill="none" stroke="#8f8f8f" stroke-width="11" stroke-linecap="round" />
+  <rect x="34" y="94" width="34" height="58" rx="15" fill="url(#hpCup)" />
+  <rect x="132" y="94" width="34" height="58" rx="15" fill="url(#hpCup)" />
+  <rect x="41" y="101" width="20" height="44" rx="10" fill="#6f6f6f" />
+  <rect x="139" y="101" width="20" height="44" rx="10" fill="#6f6f6f" />
+  <path d="M61 96c9-6 69-6 78 0" fill="none" stroke="#c9c9c9" stroke-width="4" stroke-linecap="round" />
+</svg>

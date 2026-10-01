@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Grand piano">
+  <defs>
+    <linearGradient id="gpBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a3a" /><stop offset="1" stop-color="#161616" />
+    </linearGradient>
+  </defs>
+  <path d="M140 52c22 10 34 30 32 54l-106 14c-14-2-22-10-22-22 0-30 42-52 96-46z" fill="url(#gpBody)" />
+  <path d="M140 52c22 10 34 30 32 54l-52 7c-6-24-4-48 20-61z" fill="#2a2a2a" />
+  <rect x="40" y="118" width="136" height="12" rx="4" fill="#1d1d1d" />
+  <path d="M52 130h112l-8 10H60z" fill="#242424" />
+  <path d="M64 140v22M136 140v22M100 140v18" stroke="#2e2e2e" stroke-width="6" stroke-linecap="round" />
+  <path d="M46 118h26M128 118h30" stroke="#6a6a6a" stroke-width="3" />
+  <circle cx="60" cy="112" r="3" fill="#8f8f8f" />
+</svg>

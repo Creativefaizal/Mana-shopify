@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Wireless mouse">
+  <defs>
+    <linearGradient id="msBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfbfb" /><stop offset="1" stop-color="#d5d5d5" />
+    </linearGradient>
+  </defs>
+  <path d="M100 40c26 0 42 20 42 52v26c0 24-18 42-42 42s-42-18-42-42V92c0-32 16-52 42-52z" fill="url(#msBody)" />
+  <path d="M100 40v46" stroke="#c2c2c2" stroke-width="3" />
+  <rect x="94" y="58" width="12" height="22" rx="6" fill="#a8a8a8" />
+  <path d="M78 100c14 6 30 6 44 0" fill="none" stroke="#e2e2e2" stroke-width="4" />
+  <ellipse cx="100" cy="150" rx="16" ry="8" fill="#c9c9c9" opacity="0.7" />
+</svg>

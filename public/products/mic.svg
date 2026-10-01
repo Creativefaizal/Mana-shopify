@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Podcast microphone">
+  <defs>
+    <linearGradient id="micBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f4f4f" /><stop offset="0.5" stop-color="#7a7a7a" /><stop offset="1" stop-color="#3f3f3f" />
+    </linearGradient>
+  </defs>
+  <rect x="76" y="38" width="48" height="76" rx="24" fill="url(#micBody)" />
+  <g stroke="#2f2f2f" stroke-width="2">
+    <path d="M80 54h40M80 64h40M80 74h40M80 84h40M80 94h40" />
+  </g>
+  <rect x="84" y="114" width="32" height="14" rx="6" fill="#3a3a3a" />
+  <path d="M100 128v18" stroke="#5a5a5a" stroke-width="8" />
+  <path d="M62 146h76" stroke="#c4c4c4" stroke-width="10" stroke-linecap="round" />
+  <path d="M62 160h76" stroke="#b6b6b6" stroke-width="6" stroke-linecap="round" />
+</svg>

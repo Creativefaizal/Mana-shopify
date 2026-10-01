@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Magnetic car phone mount">
+  <defs>
+    <linearGradient id="chPad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a5a5a" /><stop offset="1" stop-color="#242424" />
+    </linearGradient>
+  </defs>
+  <rect x="46" y="52" width="52" height="96" rx="12" fill="#e3e3e3" />
+  <rect x="52" y="60" width="40" height="80" rx="8" fill="#cfcfcf" />
+  <circle cx="72" cy="100" r="12" fill="#b6b6b6" />
+  <circle cx="118" cy="96" r="30" fill="url(#chPad)" />
+  <circle cx="118" cy="96" r="18" fill="#383838" />
+  <rect x="112" y="118" width="12" height="20" rx="5" fill="#2f2f2f" />
+  <path d="M136 60c14 8 22 22 22 38" fill="none" stroke="#a5a5a5" stroke-width="8" stroke-linecap="round" />
+  <rect x="140" y="42" width="34" height="14" rx="6" fill="#dcdcdc" />
+</svg>

@@ -1,13 +1,13 @@
 import type { Pricing } from "./types";
 
-/** Money helpers shared by the storefront, the cart and the checkout API. */
+/** Money helpers shared by the storefront, the cart and the checkout API. Prices are in naira (NGN). */
 
 export function formatMoney(amount: number): string {
-  return new Intl.NumberFormat("en-US", {
+  return new Intl.NumberFormat("en-NG", {
     style: "currency",
-    currency: "USD",
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
+    currency: "NGN",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
   }).format(Number.isFinite(amount) ? amount : 0);
 }
 
@@ -36,11 +36,11 @@ export function discountPercent(price: number, compareAt: number | null): number
 /* ------------------------------------------------------------------ pricing */
 
 export const PRICING = {
-  freeShippingThreshold: 150,
-  standardShipping: 9.9,
-  expressShipping: 24.9,
+  freeShippingThreshold: 200_000,
+  standardShipping: 5_000,
+  expressShipping: 12_000,
   taxRate: 0.08,
-  loyaltyThreshold: 500,
+  loyaltyThreshold: 700_000,
   loyaltyRate: 0.05,
 } as const;
 

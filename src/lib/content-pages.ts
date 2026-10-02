@@ -41,7 +41,7 @@ export const CONTENT_PAGES: Record<string, ContentPage> = {
     title: "Shipping",
     eyebrow: "Support",
     intro:
-      "Standard shipping is free on every order over $150. Below that it is a flat $9.90, and express is $24.90 whatever the basket size.",
+      "Standard shipping is free on every order over ₦200,000. Below that it is a flat ₦5,000, and express is ₦12,000 whatever the basket size.",
     sections: [
       {
         heading: "How long it takes",

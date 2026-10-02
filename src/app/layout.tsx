@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Mana",
   },
   description:
-    "Mana is a modern shop for phones, audio, storage and smart home gear. Free standard shipping over $150.",
+    "Mana is a modern shop for phones, audio, storage and smart home gear. Free standard shipping over ₦200,000.",
   openGraph: {
     title: "Mana",
     description: "Devices, audio and home essentials, chosen to last.",

@@ -54,8 +54,8 @@ const POSTS = [
     date: "January 2026",
   },
   {
-    slug: "why-free-shipping-150",
-    title: "Why free shipping starts at $150",
+    slug: "why-free-shipping-200k",
+    title: "Why free shipping starts at ₦200,000",
     excerpt:
       "The arithmetic behind our threshold, and why we would rather tell you than quietly bake it into prices.",
     category: "Company",

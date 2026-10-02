@@ -75,7 +75,7 @@ export default async function AccountPage() {
           label="Recent spend"
           value={formatMoney(lifetime)}
         />
-        <Metric icon={Sparkles} label="Mana Club" value="5% over $500" />
+        <Metric icon={Sparkles} label="Mana Club" value="5% over ₦700,000" />
       </div>
 
       <section className="mt-8 rounded-card border border-line bg-white p-5 sm:p-6">

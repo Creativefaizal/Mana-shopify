@@ -12,7 +12,7 @@ import {
 } from "react";
 import type { CartLine } from "@/lib/types";
 
-const STORAGE_KEY = "mana:cart:v1";
+const STORAGE_KEY = "mana:cart:v2";
 const MAX_QTY = 20;
 
 interface CartState {

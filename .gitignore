@@ -26,3 +26,6 @@ yarn-error.log*
 .vercel
 /_env.txt
 /_npm.txt
+
+# Supabase CLI
+supabase/.temp/

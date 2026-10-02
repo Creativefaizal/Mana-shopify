@@ -28,10 +28,7 @@ export function GoogleSignInButton({ next = "/account" }: { next?: string }) {
 
     const { error: oauthError } = await supabase.auth.signInWithOAuth({
       provider: "google",
-      options: {
-        redirectTo,
-        queryParams: { access_type: "offline", prompt: "consent" },
-      },
+      options: { redirectTo },
     });
 
     if (oauthError) {

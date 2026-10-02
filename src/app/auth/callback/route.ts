@@ -32,5 +32,14 @@ export async function GET(request: Request) {
 
   if (error) return redirectTo("/auth/login", { error: error.message });
 
-  return redirectTo(next.startsWith("/") ? next : "/account");
+  return redirectTo(safeNextPath(next));
+}
+
+/**
+ * Only allow same-site paths. `//evil.com` and `/\evil.com` start with "/" but
+ * resolve to another host, so they fall back to the account page.
+ */
+function safeNextPath(next: string) {
+  if (!next.startsWith("/") || next.startsWith("//") || next.startsWith("/\\")) return "/account";
+  return next;
 }

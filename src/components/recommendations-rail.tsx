@@ -69,7 +69,7 @@ export function RecommendationsRail({ products }: { products: Product[] }) {
 
       <div
         ref={rail}
-        className="no-scrollbar -mx-4 flex snap-x snap-mandatory gap-6 overflow-x-auto px-4 pb-2 sm:-mx-6 sm:px-6"
+        className="no-scrollbar relative -mx-4 flex snap-x snap-mandatory gap-6 overflow-x-auto px-4 pb-2 sm:-mx-6 sm:px-6"
       >
         {products.map((product) => (
           <div key={product.slug} className="w-[260px] shrink-0 snap-start sm:w-[300px]">

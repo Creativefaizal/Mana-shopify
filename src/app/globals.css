@@ -34,6 +34,13 @@
 }
 
 /* ----------------------------------------------------------------- base */
+/* Never let the page pan sideways on phones. `clip` (unlike `hidden`) keeps
+   position: sticky working. */
+html,
+body {
+  overflow-x: clip;
+}
+
 html {
   scroll-behavior: smooth;
 }

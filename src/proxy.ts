@@ -18,6 +18,6 @@ export const config = {
      * Everything except static assets and SVG artwork - the session refresh has
      * to run on real page and API requests to keep cookies in sync.
      */
-    "/((?!_next/static|_next/image|products/|favicon.ico|icon.svg|hero-interior.svg|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
+    "/((?!_next/static|_next/image|products/|favicon.ico|icon.svg|hero/|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
   ],
 };

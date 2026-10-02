@@ -10,7 +10,6 @@ import {
 
 const ABOUT_LINKS = [
   { href: "/blog", label: "Blog" },
-  { href: "/branda", label: "Meet The Team" },
   { href: "/contact", label: "Contact Us" },
 ];
 

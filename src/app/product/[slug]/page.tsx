@@ -62,7 +62,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <img
               src={product.image_url}
               alt={product.name}
-              className="h-full max-h-[560px] w-full object-contain p-10"
+              className="aspect-square w-full object-cover"
             />
             <span className="absolute right-4 top-4 rounded-pill bg-white/95 px-3 py-1 text-[11px] font-medium shadow-sm">
               {product.category_name}

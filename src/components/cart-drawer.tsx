@@ -87,7 +87,7 @@ export function CartDrawer() {
                     <img
                       src={line.image_url}
                       alt={line.name}
-                      className="h-full w-full object-contain p-3"
+                      className="h-full w-full object-cover"
                     />
                   </Link>
 

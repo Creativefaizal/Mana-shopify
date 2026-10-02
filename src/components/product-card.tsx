@@ -15,8 +15,8 @@ interface ProductCardProps {
 }
 
 /**
- * Card artwork is a local SVG, so a plain <img> is both faster and safer than
- * the image optimiser (which refuses SVG by default).
+ * Card photos are pre-cropped 1000px squares in /public/products, so a plain
+ * <img> is enough - no image optimiser round trip needed.
  */
 export function ProductCard({ product, compact = false }: ProductCardProps) {
   const { addLine, touched } = useCart();
@@ -50,7 +50,7 @@ export function ProductCard({ product, compact = false }: ProductCardProps) {
           src={product.image_url}
           alt={product.name}
           loading="lazy"
-          className="absolute inset-0 h-full w-full object-contain p-8 transition-transform duration-500 group-hover:scale-[1.04]"
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
         />
         <span className="absolute right-3 top-3 rounded-pill bg-white/95 px-3 py-1 text-[11px] font-medium text-ink shadow-sm">
           {product.category_name}

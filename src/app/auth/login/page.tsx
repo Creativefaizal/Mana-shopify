@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { CheckCircle2, ShieldCheck, Sparkles, Truck } from "lucide-react";
 import { GoogleSignInButton } from "@/components/google-sign-in-button";
@@ -100,13 +99,6 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
                 </span>
               </li>
             </ul>
-            <p className="mt-3">
-              Full Google Cloud Console walkthrough:{" "}
-              <Link href="/branda#setup" className="underline decoration-dotted">
-                Branda setup notes
-              </Link>{" "}
-              or the README in the project root.
-            </p>
           </div>
         </div>
       </div>

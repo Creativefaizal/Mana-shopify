@@ -106,7 +106,7 @@ export default async function OrdersPage() {
               {order.order_items?.map((item) => (
                 <li key={`${order.order_number}-${item.product_slug}`} className="flex items-center gap-3 py-3">
                   <span className="h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-tile">
-                    <img src={item.image_url} alt="" className="h-full w-full object-contain p-2" />
+                    <img src={item.image_url} alt="" className="h-full w-full object-cover" />
                   </span>
                   <span className="min-w-0 flex-1">
                     <Link

@@ -20,7 +20,6 @@ import { useCart } from "@/components/cart-provider";
 import type { Profile } from "@/lib/types";
 
 const NAV = [
-  { href: "/branda", label: "Branda" },
   { href: "/shop", label: "Shop" },
   { href: "/blog", label: "Blog" },
 ];

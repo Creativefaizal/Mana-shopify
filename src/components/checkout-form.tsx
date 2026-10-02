@@ -387,7 +387,7 @@ export function CheckoutForm({ profile }: { profile: Profile | null }) {
             {lines.map((line) => (
               <li key={line.slug} className="flex items-center gap-3">
                 <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-tile">
-                  <img src={line.image_url} alt="" className="h-full w-full object-contain p-2" />
+                  <img src={line.image_url} alt="" className="h-full w-full object-cover" />
                 </span>
                 <span className="min-w-0 flex-1">
                   <Link href={`/product/${line.slug}`} className="block truncate text-sm font-medium">

@@ -29,3 +29,5 @@ yarn-error.log*
 
 # Supabase CLI
 supabase/.temp/
+
+.env*

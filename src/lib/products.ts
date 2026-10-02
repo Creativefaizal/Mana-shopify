@@ -22,7 +22,7 @@ function normalize(row: Record<string, unknown>): Product {
     compare_at_price: compareAt === null || compareAt === undefined ? null : Number(compareAt),
     rating: Number(row.rating ?? 0),
     reviews_count: Number(row.reviews_count ?? 0),
-    image_url: String(row.image_url ?? "/products/phone-holder.svg"),
+    image_url: String(row.image_url ?? "/products/phone-holder-sakti.jpg"),
     stock: Number(row.stock ?? 0),
     is_new: Boolean(row.is_new),
     is_best_seller: Boolean(row.is_best_seller),
